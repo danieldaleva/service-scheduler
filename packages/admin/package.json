@@ -10,6 +10,9 @@
 		"eject": "craco eject",
 		"postinstall": "expo-yarn-workspaces postinstall"
 	},
+	"jest": {
+		"preset": "jest-expo"
+	},
 	"dependencies": {
 		"@service-scheduler/common": "^0.0.1",
 		"expo": "~42.0.1",
@@ -23,6 +26,7 @@
 		"@babel/core": "^7.9.0",
 		"@types/react": "~16.9.35",
 		"@types/react-native": "~0.63.2",
+		"jest-expo": "^42.0.0",
 		"typescript": "~4.0.0"
 	},
 	"repository": {

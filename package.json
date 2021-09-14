@@ -1,0 +1,20 @@
+{
+	"name": "@service-scheduler/root",
+	"private": true,
+	"license": "MIT",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"start:admin": "lerna exec --scope @service-scheduler/admin -- expo r -c",
+		"start:app": "lerna exec --scope @service-scheduler/app -- expo r -c",
+		"start:server": "lerna exec --scope @service-scheduler/server -- nest start"
+	},
+	"devDependencies": {
+		"expo-yarn-workspaces": "^1.5.2",
+		"lerna": "^4.0.0"
+	},
+	"dependencies": {
+		"expo": "^42.0.3"
+	}
+}

@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: '@service-scheduler/app',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'packages/@service-scheduler/common'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/dc/files/monorepo/react/service-scheduler
+3 error
